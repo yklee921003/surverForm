@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Arapey&family=Chewy&family=Poiret+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="survey"><h1 id="title">Welcome to Enjoy.Travel</h1></div>
+
+    <p id="dscription"></p>
+    <div class="iphonebox">
+      <div class="camerca"><br><div class="rectangle"></div></div>
+      <div class="circleSpeaker"></div>
+      <div class="screen">
+
+        <div class="whole">
+
+          <form id="survey-form" action="index.html" method="post">
+
+          <div id="containerName">
+              <div class="name">  <label for="name">Your Name: </label> </div>
+              <div class="enterYourName"> <input type="text" name="enter your name" placeholder="Enter your name" ></div><br>
+          </div>
+
+          <div id="containerEmail">
+              <div class="email"><label for="email">Email: </label></div>
+              <div class="enterYourEmail"><input type="email" name="email" placeholder="Enter your email"></div><br>
+          </div>
+
+          <div id="containerBday">
+              <div class="birthday"><label for="date">Your Birthday</label></div>
+              <div class="yourBirthday"><input type="date" name="date" value=""></div><br>
+          </div>
+
+            <div id="containerGender">
+              <div class="gender">Your gender</div>
+              <div class="radio"> <input type="radio"> female <input type="radio"> male <br>
+                <input type="radio" >Prefer not to say</div><br>
+            </div>
+
+            <div id="containerCity">
+              <div class="yourCity">Check your favorite City </div>
+                  <div class="checkCity">
+                    <input type="checkbox" name="" value="">Seattle <br>
+                    <input type="checkbox" name="" value=""> San Francisco <br>
+                    <input type="checkbox" name="" value=""> Los Angeles <br>
+                    <input type="checkbox" name="" value="">Chicago <br>
+                    <input type="checkbox" name="" value="">Minneapolis <br>
+                    <input type="checkbox" name="" value=""> Dallas <br>
+                    <input type="checkbox" name="" value=""> New York City <br>
+                    <input type="checkbox" name="" value=""> Miami <br>
+                  </div> <br>
+            </div>
+
+              <div id="containerYear">
+                <div>How often do you travel per year? </div>
+                <div>
+                  <select class="frequence" name="travel">
+                    <option disabled value selected> Select an option</option>
+                    <option value="0">0~1 time/year</option>
+                    <option value="1">2~3 times/year</option>
+                    <option value="2">4~5 times/year</option>
+                    <option value="3">6~7 times/year</option>
+                  </select>
+                </div>
+              </div> <br>
+
+              <div id="comments">
+                <div class="">
+                  Tell us more about your favorite destination or concern about this trip.
+                </div> <br>
+                <div class="">
+                  <textarea name="yourConcern" rows="3.4" cols="40" placeholder="Your comments..."></textarea>
+                </div>
+
+              </div>
+
+
+
+          </form>
+        </div>
+
+      <div class="homebutton"></div>
+    </div>
+    <form id="survey-form" action="index.html" method="post">
+      <div class="button">
+        <button class="changeButton"type="button" name="button">submit</button>
+      </div>
+    <h6>© 2020 Maria Yunkyung Lee</h6>
+    </form>
+  </body>
+</html>
